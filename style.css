@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -7,3 +8,234 @@
 body {
     background-color: #292b2c;
 }
+
+img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Open Sans';
+}
+
+nav i {
+    font-size: 1.5rem;
+}
+
+nav a {
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-family: 'Roboto';
+}
+
+.container {
+    margin: 0 4rem;
+}
+
+.notification-dot {
+    position: absolute;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: red;
+    bottom: 1rem;
+    left: 0.8rem;
+    border-radius: 100%;
+}
+
+.vertical-line {
+    width: 0.1rem;
+    height: 2rem;
+    background-color: white;
+}
+
+
+/* utilities */
+
+
+/* flex box */
+
+.flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-self-end {
+    justify-self: end;
+}
+
+.justify-self-start {
+    justify-self: start;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.align-self-end {
+    align-self: flex-end;
+}
+
+.align-self-start {
+    align-self: flex-start;
+}
+
+
+/* end flex box */
+
+.text-white {
+    color: aliceblue;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.posision-relative {
+    position: relative;
+}
+
+.border-100 {
+    border-radius: 100%;
+}
+
+
+/* margins */
+
+.m-1 {
+    margin: 0.5rem;
+}
+
+.m-2 {
+    margin: 1rem;
+}
+
+.m-3 {
+    margin: 1.5rem;
+}
+
+.m-4 {
+    margin: 2rem;
+}
+
+.m-5 {
+    margin: 2.5rem;
+}
+
+.mt-1 {
+    margin-top: 0.5rem;
+}
+
+.mt-2 {
+    margin-top: 1rem;
+}
+
+.mt-3 {
+    margin-top: 1.5rem;
+}
+
+.mt-4 {
+    margin-top: 2rem;
+}
+
+.mt-5 {
+    margin-top: 2.5rem;
+}
+
+.ml-1 {
+    margin-left: 0.5rem;
+}
+
+.ml-2 {
+    margin-left: 1rem;
+}
+
+.ml-3 {
+    margin-left: 1.5rem;
+}
+
+.ml-4 {
+    margin-left: 2rem;
+}
+
+.ml-5 {
+    margin-left: 2.5rem;
+}
+
+.my-1 {
+    margin: 0.5rem 0;
+}
+
+.my-2 {
+    margin: 1rem 0;
+}
+
+.my-3 {
+    margin: 1.5rem 0;
+}
+
+.my-4 {
+    margin: 2rem 0;
+}
+
+.my-5 {
+    margin: 2.5rem 0;
+}
+
+
+/* fonts */
+
+.font-bold {
+    font-weight: 800;
+}
+
+
+/* responsive */
+
+
+/* bog screens */
+
+@media only screen and (max-width:1200px) {}
+
+
+/* laptop */
+
+@media only screen and (max-width:992px) {}
+
+
+/* tablet */
+
+@media only screen and (max-width:768px) {
+    .container {
+        margin: 0 1.5rem;
+    }
+    nav i {
+        font-size: 1rem;
+    }
+    nav a {
+        font-size: 1.5rem;
+    }
+}
+
+
+/* mobile */
+
+@media only screen and (max-width:600px) {}
