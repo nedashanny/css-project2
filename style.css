@@ -22,7 +22,8 @@ p {
     font-family: 'Open Sans';
 }
 
-nav i {
+nav i,
+.menu i {
     font-size: 1.5rem;
 }
 
@@ -34,6 +35,10 @@ nav a {
 
 .container {
     margin: 0 4rem;
+}
+
+.menu {
+    width: fit-content;
 }
 
 .notification-dot {
@@ -232,6 +237,9 @@ nav a {
     }
     nav a {
         font-size: 1.5rem;
+    }
+    .menu {
+        display: none;
     }
 }
 
