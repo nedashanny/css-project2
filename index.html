@@ -33,14 +33,188 @@
                 </div>
             </div>
         </nav>
-        <!-- menu -->
-        <div class="menu flex flex-column align-items-center m-1">
-            <i class="fa fa-home text-white cursor-pointer mt-3"></i>
-            <i class="fa fa-user text-white cursor-pointer mt-3"></i>
-            <i class="fa fa-message text-white cursor-pointer mt-3"></i>
-            <i class="fa fa-file text-white cursor-pointer mt-3"></i>
-            <i class="fa fa-clock text-white cursor-pointer mt-3"></i>
-            <i class="fa fa-cog text-white cursor-pointer mt-3"></i>
+
+        <div class="flex flex-wrap justify-content-center">
+
+            <!-- menu -->
+            <div class="menu flex flex-column align-items-center m-1">
+                <i class="fa fa-home text-white cursor-pointer mt-3"></i>
+                <i class="fa fa-user text-white cursor-pointer mt-3"></i>
+                <i class="fa fa-message text-white cursor-pointer mt-3"></i>
+                <i class="fa fa-file text-white cursor-pointer mt-3"></i>
+                <i class="fa fa-clock text-white cursor-pointer mt-3"></i>
+                <i class="fa fa-cog text-white cursor-pointer mt-3"></i>
+            </div>
+
+            <div class="projects rounded-border mt-3">
+                <!-- head -->
+                <div class="flex align-items-center justify-content-between">
+                    <h4 class="text-white text-capitalize font-family-roboto">my projects</h4>
+                    <div class="flex justify-content-center align-items-center">
+                        <p class="text-white text-capitalize">pending</p>
+                        <div class="small-vertical-line m-2"></div>
+                        <p class="text-white text-capitalize">july, 2020</p>
+                    </div>
+                </div>
+
+                <!-- inputs -->
+                <div class="flex flex-wrap justify-content-between mt-2">
+                    <div class="flex align-items-center input-container rounded-border m-1">
+                        <i class="fa fa-search text-white"></i>
+                        <input style="width: 10rem;" type="text" class="text-white ml-1" placeholder="search">
+                    </div>
+                    <div class="flex align-items-center input-container rounded-border m-1">
+                        <input style="width: 5rem;" type="text" class="text-white" placeholder="filter">
+                        <i class="fa fa-filter text-white"></i>
+                    </div>
+                </div>
+
+                <!-- ongoing title -->
+                <div class="flex mt-3">
+                    <h5 class="text-white text-capitalize font-family-roboto">ongoing projects</h5>
+                    <i class="fa fa-angle-down text-white ml-1"></i>
+                </div>
+
+                <!-- projects -->
+                <div class="mt-2 flex justify-content-center align-items-center flex-wrap">
+                    <!-- 1 -->
+                    <div class="cart-gradient rounded-border light-blue-gradient">
+                        <div class="glass-morphism-effect rounded-border flex flex-column justify-content-center">
+                            <div class="flex justify-content-between">
+                                <p class="text-white text-capitalize">feb 2, 2020</p>
+                                <i class="fa fa-ellipsis-v text-white"></i>
+                            </div>
+                            <div class="flex flex-column align-items-center mt-2">
+                                <h5 class="text-white text-capitalize">web developing</h5>
+                                <p class="text-white text-capitalize">procecing</p>
+                            </div>
+                            <div class="flex flex-column">
+                                <p class="text-white text-capitalize align-self-start">progress</p>
+                                <progress class="mt-1" value="90" max="100"> 90%</progress>
+                                <p class="text-white align-self-end mt-1">90%</p>
+                            </div>
+                            <div class="flex align-items-center">
+                                <div class="group-profiles flex align-items-center">
+                                    <img class="border-100" src="https://randomuser.me/api/portraits/women/12.jpg" alt="">
+                                    <img class="border-100" src="https://randomuser.me/api/portraits/men/10.jpg" alt="">
+                                </div>
+
+                                <div class="group-plus border-100 flex justify-content-center align-items-center light-blue-plus">
+                                    <i class="fa fa-plus text-white"></i>
+                                </div>
+                                <div class="days-left flex justify-content-center align-items-center light-gray-bg rounded-border ml-4">
+                                    <p class="text-white">3 days left</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2 -->
+                    <div class="cart-gradient rounded-border yellow-gradient">
+                        <div class="glass-morphism-effect rounded-border flex flex-column justify-content-center">
+                            <div class="flex justify-content-between">
+                                <p class="text-white text-capitalize">feb 2, 2020</p>
+                                <i class="fa fa-ellipsis-v text-white"></i>
+                            </div>
+                            <div class="flex flex-column align-items-center mt-2">
+                                <h5 class="text-white text-capitalize">web developing</h5>
+                                <p class="text-white text-capitalize">procecing</p>
+                            </div>
+                            <div class="flex flex-column">
+                                <p class="text-white text-capitalize align-self-start">progress</p>
+                                <progress class="mt-1" value="90" max="100"> 90%</progress>
+                                <p class="text-white align-self-end mt-1">90%</p>
+                            </div>
+                            <div class="flex align-items-center">
+                                <div class="group-profiles flex align-items-center">
+                                    <img class="border-100" src="https://randomuser.me/api/portraits/women/12.jpg" alt="">
+                                    <img class="border-100" src="https://randomuser.me/api/portraits/men/10.jpg" alt="">
+                                </div>
+
+                                <div class="group-plus border-100 flex justify-content-center align-items-center light-blue-plus">
+                                    <i class="fa fa-plus text-white"></i>
+                                </div>
+                                <div class="days-left flex justify-content-center align-items-center light-gray-bg rounded-border ml-4">
+                                    <p class="text-white">3 days left</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 3 -->
+
+                    <div class="cart-gradient rounded-border red-gradient">
+                        <div class="glass-morphism-effect rounded-border flex flex-column justify-content-center">
+                            <div class="flex justify-content-between">
+                                <p class="text-white text-capitalize">feb 2, 2020</p>
+                                <i class="fa fa-ellipsis-v text-white"></i>
+                            </div>
+                            <div class="flex flex-column align-items-center mt-2">
+                                <h5 class="text-white text-capitalize">web developing</h5>
+                                <p class="text-white text-capitalize">procecing</p>
+                            </div>
+                            <div class="flex flex-column">
+                                <p class="text-white text-capitalize align-self-start">progress</p>
+                                <progress class="mt-1" value="90" max="100"> 90%</progress>
+                                <p class="text-white align-self-end mt-1">90%</p>
+                            </div>
+                            <div class="flex align-items-center">
+                                <div class="group-profiles flex align-items-center">
+                                    <img class="border-100" src="https://randomuser.me/api/portraits/women/12.jpg" alt="">
+                                    <img class="border-100" src="https://randomuser.me/api/portraits/men/10.jpg" alt="">
+                                </div>
+
+                                <div class="group-plus border-100 flex justify-content-center align-items-center light-blue-plus">
+                                    <i class="fa fa-plus text-white"></i>
+                                </div>
+                                <div class="days-left flex justify-content-center align-items-center light-gray-bg rounded-border ml-4">
+                                    <p class="text-white">3 days left</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 4 -->
+
+                    <div class="cart-gradient rounded-border dark-blue-gradient">
+                        <div class="glass-morphism-effect rounded-border flex flex-column justify-content-center">
+                            <div class="flex justify-content-between">
+                                <p class="text-white text-capitalize">feb 2, 2020</p>
+                                <i class="fa fa-ellipsis-v text-white"></i>
+                            </div>
+                            <div class="flex flex-column align-items-center mt-2">
+                                <h5 class="text-white text-capitalize">web developing</h5>
+                                <p class="text-white text-capitalize">procecing</p>
+                            </div>
+                            <div class="flex flex-column">
+                                <p class="text-white text-capitalize align-self-start">progress</p>
+                                <progress class="mt-1" value="90" max="100"> 90%</progress>
+                                <p class="text-white align-self-end mt-1">90%</p>
+                            </div>
+
+                            <div class="flex align-items-center">
+                                <div class="group-profiles flex align-items-center">
+                                    <img class="border-100" src="https://randomuser.me/api/portraits/women/12.jpg" alt="">
+                                    <img class="border-100" src="https://randomuser.me/api/portraits/men/10.jpg" alt="">
+                                </div>
+
+                                <div class="group-plus border-100 flex justify-content-center align-items-center light-blue-plus">
+                                    <i class="fa fa-plus text-white"></i>
+                                </div>
+                                <div class="days-left flex justify-content-center align-items-center light-gray-bg rounded-border ml-4">
+                                    <p class="text-white">3 days left</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </div>
 </body>
