@@ -38,6 +38,7 @@ nav i,
 }
 
 nav a {
+    margin-left: 2rem;
     font-size: 2rem;
     text-transform: capitalize;
     font-family: 'Roboto';
@@ -45,6 +46,10 @@ nav a {
 
 .container {
     margin: 0 4rem;
+}
+
+.content {
+    justify-content: space-between;
 }
 
 .menu {
@@ -67,6 +72,12 @@ nav a {
     background-color: white;
 }
 
+.horizontal-line {
+    width: 100%;
+    height: 1px;
+    background-color: #4c5258;
+}
+
 .small-vertical-line {
     width: 0.1rem;
     height: 1rem;
@@ -74,9 +85,9 @@ nav a {
 }
 
 .projects {
-    width: 60%;
+    width: 50%;
     margin: 0 2rem;
-    padding: 2rem;
+    padding: 1rem;
     border: 1px solid #4c5258;
     background-color: #4c5258;
 }
@@ -185,6 +196,32 @@ nav a {
     background-color: #4c5258;
 }
 
+.messages {
+    width: 40%;
+}
+
+.message-box:hover {
+    background: linear-gradient(330deg, #292b2c 75%, rgba(0, 255, 235, 1) 100%);
+}
+
+.message-box:hover .horizontal-line {
+    background-color: transparent;
+}
+
+.glass {
+    padding: 0.8rem;
+}
+
+.glass div {
+    width: 100%;
+}
+
+.glass:hover {
+    background: rgba( 24, 11, 11, 0.25);
+    backdrop-filter: blur( 25px);
+    -webkit-backdrop-filter: blur( 25px);
+}
+
 
 /* utilities */
 
@@ -233,6 +270,14 @@ nav a {
 
 
 /* end flex box */
+
+.text-small {
+    font-size: small;
+}
+
+.text-x-small {
+    font-size: x-small;
+}
 
 .text-white {
     color: aliceblue;
@@ -360,17 +405,28 @@ nav a {
 /* responsive */
 
 
-/* bog screens */
+/* big screens */
 
-@media only screen and (max-width:1200px) {}
-
-
-/* laptop */
-
-@media only screen and (max-width:992px) {}
+@media only screen and (max-width:1190px) {
+    .content {
+        justify-content: center;
+    }
+}
 
 
 /* tablet */
+
+@media only screen and (max-width:912px) {
+    .menu {
+        display: none;
+    }
+    .projects {
+        width: 100%;
+    }
+    .messages {
+        width: 100%;
+    }
+}
 
 @media only screen and (max-width:768px) {
     .container {
@@ -380,17 +436,7 @@ nav a {
         font-size: 1rem;
     }
     nav a {
-        font-size: 1.5rem;
-    }
-    .menu {
-        display: none;
-    }
-    .projects {
-        width: 100%;
+        font-size: 1rem;
+        margin-left: 0.5rem;
     }
 }
-
-
-/* mobile */
-
-@media only screen and (max-width:600px) {}
